@@ -1,0 +1,28 @@
+Back BOM,,,
+Amount,Designator,Part Type,Properties
+1,,Generic molex header - 4 pins,"package THT; hole size 1.0mm,0.508mm; row single; form molex; pins 4; pin spacing 0.1in (2.54mm)"
+10,"c11, c12, c16, c18, c20, c21, c26, c28, c30, c31",Electrolytic Capacitor,"package 0405 [SMD, electrolytic]; capacitance 10µF; voltage 6.3V"
+4,"c13, c14, c24, c25",Ceramic Capacitor,"package 0603 [SMD, multilayer]; capacitance 100nF; voltage 6.3V"
+2,"c15, c23",Ceramic Capacitor,"package 0603 [SMD, multilayer]; capacitance 220nF; voltage 6.3V"
+2,"c17, c27",Electrolytic Capacitor,"package 0405 [SMD, electrolytic]; capacitance 2.2µF; voltage 6.3V"
+2,"c19, c29",Ceramic Capacitor,"package 0603 [SMD, multilayer]; capacitance 20pF; voltage 6.3V"
+2,"c22, c32",Ceramic Capacitor,"package 0603 [SMD, multilayer]; capacitance 22pF; voltage 6.3V"
+2,"IC1, IC3",SO08,package SO08; true; chip label IC; part # TL072
+2,"IC2, IC4",SO08,package SO08; true; chip label IC; part # LM301
+2,,Generic female header - 7 pins,"package THT; hole size 1.0mm,0.3mm; row single; form ♀ (female); pins 7; pin spacing 0.1in (2.54mm)"
+2,,Inductor,package 400 mil [THT]
+4,"r1, r5, r8, r12",1M Ω Resistor,package 0603 [SMD]; tolerance ±5%; resistance 1MΩ
+2,"r2, r9",8.2k Ω Resistor,package 0603 [SMD]; tolerance ±5%; resistance 8.2kΩ
+2,"r3, r10",10k Ω Resistor,package 0603 [SMD]; tolerance ±5%; resistance 220Ω
+2,"r4, r11",1.5k Ω Resistor,package 0603 [SMD]; tolerance ±5%; resistance 1.5kΩ
+4,"r6, r7, r13, r14",47k Ω Resistor,package 0603 [SMD]; tolerance ±5%; resistance 47kΩ
+2,,VTL5C4,package THT; part VTL5C4; variant variant 3
+2,"VR1, VR2",Trimpot 3362P,package 3362P; variant variant 2; part # 204
+,,,
+Front BOM,,,
+Amount,Designator,Part Type,Properties
+4,Banana,Black,
+2,Hex 10mm M3,Male Female,"package THT; hole size 1.0mm,0.3mm; row single; form ♀ (female); pins 7; pin spacing 0.1in (2.54mm)"
+4,,Rotary Potentiometer (Small),package THT; size Rotary - 9mm; track Linear; type Rotary Shaft Potentiometer; maximum resistance A100kΩ
+4,Hex 11mm M3,Female Female,
+6,M3 machine screw,6mm,
